@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Look Down - Imagens Aéreas</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+    <!-- O cabeçalho flutuante de navegação -->
+    <header>
+        <div class="logo"></div>
+
+        <nav>
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDQ1OSA0NTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1OSA0NTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0ibWVudSI+CgkJPHBhdGggZD0iTTAsMzgyLjVoNDU5di01MUgwVjM4Mi41eiBNMCwyNTVoNDU5di01MUgwVjI1NXogTTAsNzYuNXY1MWg0NTl2LTUxSDB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="
+            >
+
+            <ul>
+                <li>
+                    <a href="#hero">Home</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#showcase">Showcase</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo efetivo -->
+    <main>
+        <section class="hero" id="hero">
+            <img class="logo" src="img/logo-integral.png" />
+
+            <a class="next" href="#about">
+                    <img src="img/down.png"/>
+                </a>
+        </section>
+
+        <section class="about" id="about">
+            <div class="ball">
+                <img src="img/visao.png" />
+                <div>Visão</div>
+            </div>
+
+            <div class="ball">
+                <img src="img/espirito.png" />
+                <div>Espírito</div>
+            </div>
+
+            <div class="ball">
+                <img src="img/disciplina.png" />
+                <div>Disciplina</div>
+            </div>
+        </section>
+
+        <section class="showcase agriculture" id="showcase">
+            <div class="buttons">
+                <button class="outline active" data-content="sports">
+                        Esportes
+                    </button>
+
+                <button class="outline" data-content="traffic">
+                        Tráfego
+                    </button>
+
+                <button class="outline" data-content="cinema">
+                        Cinematografia
+                    </button>
+
+                <button class="outline" data-content="agriculture">
+                        Agropecuária
+                    </button>
+            </div>
+
+            <div class="content sports">
+                <p>Frase1</p>
+                <p>Frase1.2</p>
+            </div>
+
+            <div class="content traffic">
+                <p>Frase2</p>
+                <p>Frase2.2</p>
+            </div>
+
+            <div class="content cinema">
+                <p>Frase3</p>
+                <p>Frase3.3</p>
+            </div>
+
+            <div class="content agriculture">
+                <p>Frase4</p>
+                <p>Frase4.4</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <button class="filled" data-role="modalTrigger">
+            Fazer orçamento
+        </button>
+
+        <div class="socials">
+            <a class="social" target="_blank" href="#" style="background-image: url(img/twitter.png)">
+                </a>
+
+            <a class="social" target="_blank" href="#" style="background-image: url(img/facebook.png)">
+                </a>
+
+            <a class="social" target="_blank" href="#" style="background-image: url(img/instagram.png)">
+                </a>
+
+            <a class="social" target="_blank" href="#" style="background-image: url(img/flickr.png)">
+                </a>
+        </div>
+    </footer>
+<form method="get" action="/orcamento.txt">
+    <div class="modal" data-role="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" data-role="close">x</span>
+                <h2 class="title">Orçamento</h2>
+            </div>
+            <div class="modal-body">
+                <label>
+                    <span>Nome</span>
+                    <input required/>
+                </label>
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" required/>
+                </label>
+
+                <label>
+                    <span>Cidade</span>
+                    <select required>
+                        <option value="ssa">Salvador</option>
+                        <option value="fsa">Feira de Santana</option>
+                    </select>
+                </label>
+
+                <label>
+                    <span>Mensagem</span>
+                    <textarea required placeholder="Escreva sua solicitação"></textarea>
+                </label>
+            </div>
+            <div class="modal-footer">
+                <button type = "submit" class="confirm">Confirmar</button>
+                <button data-role="close" class="cancel">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</form>
+    <script type="text/javascript" src="index.js">
+    </script>
+</body>
+
+</html>
